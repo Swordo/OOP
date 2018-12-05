@@ -1,4 +1,4 @@
-// inheritance with Function prototype
+//inheritance with Function prototype
 function Square() {
     this.h = 10;
     this.w = 20;
@@ -15,3 +15,33 @@ S.prototype.disp = function () {
 
 let obj = new S();
 obj.disp();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
