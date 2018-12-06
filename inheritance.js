@@ -1,20 +1,23 @@
 //inheritance with Function prototype
-function Square() {
-    this.h = 10;
-    this.w = 20;
+function Square(name, lname) {
+    this.name = name;
+    this.lanme = lname;
+
+
+}
+Square.prototype
+
+function S(name, lname) {
+
+    Square.call(this, name, lname);
+
 
 }
 
-function S() {
-    Square.call(this);
 
-}
-S.prototype.disp = function () {
-    console.log(this.w * this.h);
-}
 
-let obj = new S();
-obj.disp();
+let obj = new S(12, 1);
+console.log(obj)
 
 
 
